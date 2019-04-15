@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E036357B2261EBBA009E4874 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036357A2261EBBA009E4874 /* BorderButton.swift */; };
+		E004345522643A8500566DC8 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E004345422643A8500566DC8 /* BorderButton.swift */; };
 		E091DF112261E1B7004C1BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091DF102261E1B7004C1BD5 /* AppDelegate.swift */; };
 		E091DF132261E1B7004C1BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091DF122261E1B7004C1BD5 /* ViewController.swift */; };
 		E091DF162261E1B7004C1BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E091DF142261E1B7004C1BD5 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E036357A2261EBBA009E4874 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BorderButton.swift; path = ../../../BorderButton.swift; sourceTree = "<group>"; };
+		E004345422643A8500566DC8 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		E091DF0D2261E1B7004C1BD5 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E091DF102261E1B7004C1BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E091DF122261E1B7004C1BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,12 +37,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E03635792261EADE009E4874 /* New Group */ = {
+		E004345322643A6700566DC8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E036357A2261EBBA009E4874 /* BorderButton.swift */,
+				E004345422643A8500566DC8 /* BorderButton.swift */,
 			);
-			path = "New Group";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E091DF042261E1B7004C1BD5 = {
@@ -64,7 +64,7 @@
 		E091DF0F2261E1B7004C1BD5 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				E03635792261EADE009E4874 /* New Group */,
+				E004345322643A6700566DC8 /* Views */,
 				E091DF102261E1B7004C1BD5 /* AppDelegate.swift */,
 				E091DF122261E1B7004C1BD5 /* ViewController.swift */,
 				E091DF142261E1B7004C1BD5 /* Main.storyboard */,
@@ -148,7 +148,7 @@
 			files = (
 				E091DF132261E1B7004C1BD5 /* ViewController.swift in Sources */,
 				E091DF112261E1B7004C1BD5 /* AppDelegate.swift in Sources */,
-				E036357B2261EBBA009E4874 /* BorderButton.swift in Sources */,
+				E004345522643A8500566DC8 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

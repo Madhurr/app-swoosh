@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         backgroundimg.frame = view.frame
         
     }
+    
+    @IBAction func unwindFromView(unWindSegue: UIStoryboardSegue){
+        //this function will back to the previous screen
+    }
 
     
     
